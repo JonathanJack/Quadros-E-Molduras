@@ -159,3 +159,9 @@
  document.getElementById('whatsapp-btn').addEventListener('click', () => {
   alert('WhatsApp demonstrativo: substitua pelo número verdadeiro da loja.');
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".nl-wrap").forEach(el => {
+    el.style.display = "none";
+  });
+});
