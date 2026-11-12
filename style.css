@@ -690,7 +690,8 @@ button:focus-visible, a:focus-visible {
 .whatsapp-float {
   position: fixed;
   bottom: 25px;
-  right: 25px;
+  left: 25px;
+  right: auto;
   z-index: 1050;
 
   width: 60px;
